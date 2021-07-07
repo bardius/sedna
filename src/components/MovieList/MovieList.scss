@@ -1,0 +1,9 @@
+.movie-list {
+  padding: 0 1rem 1.5rem 1rem;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  overflow: auto;
+  margin: 0;
+  list-style: none;
+}

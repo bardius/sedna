@@ -1,0 +1,19 @@
+.filter-input {
+  position: relative;
+  margin: 0 1rem;
+
+  input {
+    line-height: 2;
+    width: 300px;
+    max-width: 100%;
+    padding: 0 0.5rem 0 1.5rem;
+  }
+
+  svg {
+    position: absolute;
+    pointer-events: none;
+    left: 0.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}

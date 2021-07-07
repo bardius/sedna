@@ -1,0 +1,34 @@
+.tag {
+  display: inline-block;
+  position: relative;
+  margin: 0.25rem;
+  border-radius: 1rem;
+  line-height: 1.5;
+  padding: 0 1.6rem 0 0.6rem;
+  font-size: 0.8rem;
+  background: $blue;
+  color: $white;
+
+  button {
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    right: 0.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    border: none;
+    color: $white;
+
+    &:hover,
+    &:focus{
+      color: $dark-grey;
+    }
+
+    svg {
+      pointer-events: none;
+    }
+  }
+}

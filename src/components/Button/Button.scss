@@ -1,0 +1,29 @@
+.button {
+  border: none;
+  color: $white;
+  text-align: center;
+  line-height: 2;
+  cursor: pointer;
+  padding: 0 1.5rem;
+
+  &:disabled,
+  &[disabled]{
+    color: $dark-grey;
+  }
+
+  &-green {
+    background: $green;
+
+    &:focus,
+    &:hover {
+      background: $dark-green;
+    }
+
+    &:disabled,
+    &[disabled]{
+      cursor: default;
+      background: $dark-green;
+      color: $dark-grey;
+    }
+  }
+}
